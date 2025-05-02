@@ -1,0 +1,77 @@
+header{
+    background-color: blueviolet;
+    
+}
+
+a{
+    background-color: black;
+    border-radius: 50px;
+    text-decoration: none;
+    margin: 30px;
+    padding: 15px;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+header h1{
+    color: white;
+    text-align: center;
+}
+
+body{
+    background-color: black;
+}
+
+
+header img{
+    width: 280px;
+    height: 250px;
+    
+}
+
+main img{
+    width: 200px;
+    /* height: 200px; */
+}
+
+p{
+    color: white;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h2{
+    color: white;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.cappy1:hover{
+    transform: translateX(200px);
+    transition: all 3s linear;
+}
+
+footer{
+    background-color: blueviolet;
+    color: white;
+}
+
+
+.cappy2:hover{
+    background-color: aliceblue;
+    box-shadow: 25px 25px 25px 25px blueviolet;
+    transition: all 2s linear;
+}
+
+.cappy3:hover{
+    transition: all 4s linear;
+    transform: scale(2);
+}
